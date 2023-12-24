@@ -5,11 +5,11 @@ const {div, button} = tags;
 const Counter = {
   state: {count: 0},
   view: ({state}) => div([
-    button('inc', {
+    button('+', {
       onclick: () => state.count++
     }),
     div(state.count),
-    button('dec', {
+    button('-', {
       onclick: () => state.count--
     }),
   ])
