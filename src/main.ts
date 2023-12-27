@@ -10,7 +10,7 @@ const Counter: Component<State> = {
   state: {count: 0},
   view: ({state}) => div([
     button('+', {onclick: () => state.count++}),
-    div(`${state.count}`),
+    div(state.count),
     button('-', {onclick: () => state.count--}),
   ])
 }

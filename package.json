@@ -13,6 +13,6 @@
     "parcel": "^2.10.3"
   },
   "dependencies": {
-    "@tentjs/tent": "0.0.11"
+    "@tentjs/tent": "^0.0.12"
   }
 }
