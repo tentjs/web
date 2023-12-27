@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel ./src/index.html --no-cache",
-    "build": "parcel build --dist-dir=docs --public-url=./"
+    "build": "rm -rf docs && parcel build --no-cache --dist-dir=docs --public-url=./"
   },
   "author": "sebkolind <sks1993@gmail.com>",
   "license": "MIT",
