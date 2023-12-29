@@ -62,7 +62,7 @@ button {
 
 .columns {
   display: flex;
-  max-width: 800px;
+  max-width: 820px;
   margin: 0 auto;
   @media (max-width: 700px) {
     flex-direction: column-reverse;
