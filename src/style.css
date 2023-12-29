@@ -139,6 +139,7 @@ button {
 
 code {
   border-radius: 6px;
+  padding: 2em !important;
   @media (max-width: 700px) {
     border-radius: 0;
   }
