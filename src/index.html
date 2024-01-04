@@ -40,28 +40,6 @@ mount(document.body, Counter);</code></pre>
     <div id="counter"></div>
   </div>
 
-  <div class="columns">
-    <pre><code class="language-typescript">import {mount, tags} from '@tentjs/tent';
-
-  const {div, button} = tags;
-
-  const Counter = {
-    state: {count: 0},
-    view: ({state}) => div([
-      button('+', {
-        onclick: () => state.count++
-      }),
-      div(state.count),
-      button('-', {
-        onclick: () => state.count--
-      }),
-    ])
-  }
-
-  mount(document.body, Counter);</code></pre>
-    <div id="todo"></div>
-  </div>
-
   <script type="module" src="./main.ts"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
