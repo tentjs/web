@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    link(rel="stylesheet", href="../style.css")
+    title Async List - Cookbook | ⛺ Tent
+    style.
+      ul {
+        padding-left: 12px;
+      }
+      hr {
+        border-color: var(--color-pink-100);
+      }
+  body
+    div.recipe
+      h2 Async List
+      p A list fetched from <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a> with a limitation of how many items to show per "page".
+      p: a(href='https://github.com/tentjs/web/tree/main/src/async-list.ts') [source]
+      hr
+    script(type="module", src="./async-list.ts")
