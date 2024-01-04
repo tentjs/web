@@ -2,9 +2,12 @@
   "name": "@tentjs/web",
   "version": "0.0.1",
   "description": "The website for tent",
-  "source": "src/index.html",
+  "source": [
+    "src/index.html",
+    "src/async-list.html"
+  ],
   "scripts": {
-    "start": "parcel ./src/index.html --no-cache",
+    "start": "parcel --no-cache",
     "build": "rm -rf docs && parcel build --no-cache --dist-dir=docs --public-url=./"
   },
   "author": "sebkolind <sks1993@gmail.com>",
@@ -13,6 +16,7 @@
     "parcel": "^2.10.3"
   },
   "dependencies": {
-    "@tentjs/tent": "^0.0.12"
+    "@tentjs/tent": "^0.0.16",
+    "@tentjs/ui": "^0.0.5"
   }
 }

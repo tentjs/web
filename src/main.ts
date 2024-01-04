@@ -1,4 +1,5 @@
 import {type Component, mount, tags} from '@tentjs/tent'
+import {TodoList} from './components/Todo'
 
 const {div, button} = tags
 
@@ -32,3 +33,8 @@ mount(
   document.getElementById('get-started'),
   GetStarted,
 );
+
+mount(
+  document.getElementById('todo'),
+  TodoList,
+)
