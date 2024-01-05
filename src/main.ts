@@ -31,5 +31,5 @@ function onclick() {
 mount(
   document.getElementById('get-started'),
   GetStarted,
-);
+)
 
