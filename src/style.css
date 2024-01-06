@@ -36,6 +36,7 @@ button {
 
   &.cta {
     padding: 6px 14px;
+    margin-top: 24px;
     transition: border-radius 0.2s ease-in-out;
 
     &:hover {
