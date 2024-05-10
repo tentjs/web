@@ -1,7 +1,7 @@
 {
   "name": "@tentjs/web",
   "version": "0.0.1",
-  "description": "The website for tent",
+  "description": "The website for Tent",
   "scripts": {
     "start": "rm -rf dist && parcel ./src/pages/*.pug --no-cache",
     "build": "rm -rf docs && parcel build ./src/pages/*.pug --no-cache --dist-dir=docs --public-url=./"
